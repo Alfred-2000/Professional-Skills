@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Skills</title>
+    <style>
+        * 
+        {
+            box-sizing: border-box;
+        }
+        img
+        {
+            max-width: 100%;
+            height: auto;
+            display: block;
+
+        }
+        #skills h2
+        {
+            /* text-align: center; */
+            padding: 10px;
+            /* margin: 0; */
+            background-color: rgb(103, 103, 226);
+        }
+        .skills
+        {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+        .skills-img
+        {
+            /* display: flex; */
+            align-items: center;
+            height: 100%;
+            width: min(90%, 50em);
+            margin: 0 auto;
+            /* flex-wrap: wrap; */
+            /* justify-content: space-around; */
+        }
+        figure
+        {
+            float: left;
+            justify-content: space-around;
+            max-width: 50%;
+            margin: 0;
+            padding: 1.5em;
+        }
+        @media(min-width: 36em)
+        {
+            html
+            {
+                font-size: 18px;
+            }
+
+            #skills 
+            {
+                height: 100vh;
+            }
+            figure
+             {
+                max-width: 20%;
+                padding: 3.5em 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="skills">
+        <h2 >Skills</h2>
+        <div class="skills-img">
+            <figure>
+                <img src="images/python.png" alt="python">
+            </figure>
+            <figure>
+                <img src="images/java.png" alt="java">
+            </figure>
+            <figure>
+                <img src="images/c-lang.png" alt="c">
+            </figure>
+            <figure>
+                <img src="images/c++lang.png" alt="c++">
+            </figure>
+            <figure>
+                <img src="images/embedded.png" alt="c++">
+            </figure>
+            <figure>
+                <img src="images/html.png" alt="html">
+            </figure>
+            <figure>
+                <img src="images/css.png" alt="css">
+            </figure>
+            <figure>
+                <img src="images/javascript.png" alt="javascript">
+            </figure>
+            <figure>
+                <img src="images/Matlab.png" alt="matlab">
+            </figure>
+            <figure>
+                <img src="images/arduino.png" alt="c++">
+            </figure>
+        </div> 
+    </section>
+</body>
+</html>
